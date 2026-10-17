@@ -437,3 +437,35 @@ header {
     font-size: 15px;
     color: #c9aeb8;
 }
+
+/* filtros do catálogo */
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0 30px;
+    flex-wrap: wrap;
+}
+
+.filtro {
+    background-color: white;
+    color: #701f3b;
+    border: 2px solid #701f3b;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.filtro:hover {
+    background-color: #701f3b;
+    color: white;
+}
+
+.filtro.ativo {
+    background-color: #701f3b;
+    color: white;
+}
+
