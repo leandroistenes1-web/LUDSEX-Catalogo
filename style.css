@@ -530,3 +530,15 @@ header {
     font-weight: bold;
     cursor: pointer;
 }
+.produto-imagens {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.produto-imagens img {
+    width: calc(50% - 5px);
+    height: 250px;
+    object-fit: contain;
+    border-radius: 8px;
+}
