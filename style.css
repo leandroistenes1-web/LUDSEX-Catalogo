@@ -542,3 +542,9 @@ header {
     object-fit: contain;
     border-radius: 8px;
 }
+.love-lub-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    padding: 15px;
+}
