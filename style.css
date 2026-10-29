@@ -548,3 +548,19 @@ header {
     object-fit: contain !important;
     padding: 15px;
 }
+/* ===== PRODUTOS ESGOTADOS ===== */
+
+.produto.esgotado {
+    opacity: 0.65;
+}
+
+.aviso-esgotado {
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
